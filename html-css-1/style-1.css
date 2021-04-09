@@ -1,11 +1,11 @@
-.topdiv {
-  background-color: rgb(179, 102, 102);
+.navigation {
+  background-color: rgb(241, 142, 142);
   width: 100%;
   height: 15vh;
   line-height: 15vh;
 }
 
-.middiv {
+.html5 {
   width: 100%;
   height: 40vh;
   padding: 10px;
@@ -21,7 +21,7 @@
   padding: 10px;
 }
 
-.botdiv {
+.css3 {
   width: 100%;
   height: 45vh;
   padding: 10px;
