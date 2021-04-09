@@ -1,0 +1,68 @@
+.topdiv {
+  background-color: rgb(179, 102, 102);
+  width: 100%;
+  height: 15vh;
+  line-height: 15vh;
+}
+
+.middiv {
+  width: 100%;
+  height: 40vh;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.divcontent {
+  width: 100%;
+  height: 100%;
+  border-style: dotted;
+  border-width: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.botdiv {
+  width: 100%;
+  height: 45vh;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.welcome {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: 20px;
+  position: relative;
+  top: 15px;
+  display: inline;
+}
+
+.navbar {
+  display: inline;
+  position: relative;
+  top: 15px;
+}
+
+.nav {
+  display: inline;
+  margin: 20px;
+}
+.about {
+  height: 50px;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+
+.htmlogo {
+  width: 135px;
+  height: 135px;
+  float: left;
+  margin-right: 10px;
+  
+}
+
+p {
+  font-size: 14px;
+}
