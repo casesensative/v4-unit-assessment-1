@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'Version Control Software';
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'GitHub is a cloud service that hosts git files for backup, sharing, and collaboration';
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description:'initialize a folder for git usage',
+    code: 'git init'
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description:'clone a repository from github to your local drive',
+    code: 'git clone (address)'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description:'shows the current status of the staging area in git',
+    code: 'git status'
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description:'add files to the staging area for committing',
+    code: 'git add (filename/-a/.)'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+let commit = {
+    description:'commits the changes made to a new version',
+    code: 'git commit -m ("comment")'
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,11 @@
 
 //CODE HERE
 
+let addRemote = {
+    description:'creates a connection to a remote repository on Github',
+    code:'git remote add origin'
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +116,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description:'pushes your commits up to your GitHub repository',
+    code:'git push'
+}
